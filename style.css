@@ -511,12 +511,15 @@ footer {
     border-bottom: 1px soild #838383;
   }
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 991px) {
   .col-4 {
-    flex: 45%;
+    flex: 50%;
+  }
+  .pc-item {
+    width: 50%;
   }
 }
-
 @media screen and (max-width: 575px) {
   .d-flex {
     flex-direction: column;
