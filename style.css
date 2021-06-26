@@ -491,9 +491,6 @@ footer {
 /* Media Query */
 
 @media screen and (max-width: 1288px) {
-  .header-content nav {
-    /* position: relative; */
-  }
   .header-content nav ul {
     position: absolute;
     top: 20%;
